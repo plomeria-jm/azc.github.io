@@ -1,0 +1,1000 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0056b3; /* Azul secundario */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+.hero {
+    background-color: 
+    rgba(0, 183, 255, 0.877); /* Cambia esto al color que prefieras */
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #ff0000;
+    color: #333;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.btn-primary:hover {
+    background-color: #e60000;
+}
+
+
+.btn-primary {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.btn-primary:hover {
+    background-color: #e6b800;
+}
+
+.overview {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.overview h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.overview-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #0056b3; /* Azul secundario */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.1em;
+}
+
+.cta {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e6f7ff;
+    margin: 20px 0;
+}
+
+.cta h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.btn-secondary {
+    background-color: #0056b3; /* Azul secundario */
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.btn-secondary:hover {
+    background-color: #004080;
+}
+
+footer {
+    background-color: #278f8f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    border-bottom: 2px solid #0056b3; /* Azul secundario */
+    padding-bottom: 10px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.additional-services {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e6f7ff;
+    margin: 20px 0;
+}
+
+.additional-services h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.additional-services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.additional-services ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.service-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.service-item img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.service-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.service-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service-info ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.additional-services {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e6f7ff;
+    margin: 20px 0;
+}
+
+.additional-services h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.additional-services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.additional-services ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    /* Estilo para el encabezado */
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 60px 10px;
+        height: auto;
+        text-align: center;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .service-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .service-item img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .service-info h2 {
+        font-size: 1.8em;
+    }
+
+    .service-info ul li {
+        font-size: 1em;
+    }
+
+    .additional-services {
+        padding: 20px 10px;
+    }
+
+    .additional-services h2 {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes para pantallas muy pequeñas */
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .hero h2 {
+        font-size: 1.5em;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+    }
+
+    .service-info h2 {
+        font-size: 1.5em;
+    }
+
+    .service-info ul li {
+        font-size: 0.9em;
+    }
+
+    .additional-services h2 {
+        font-size: 1.5em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.overview {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.overview h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.overview-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #0056b3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    max-width: 300px;
+}
+
+.card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.1em;
+}
+
+/* Estilos adaptativos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .card {
+        width: 45%; /* Ajusta el tamaño de las tarjetas en pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 90%; /* Las tarjetas ocupan casi todo el ancho en pantallas muy pequeñas */
+    }
+
+    .overview h2 {
+        font-size: 2em;
+    }
+
+    .card h3 {
+        font-size: 1.5em;
+    }
+
+    .card p {
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fuentes Importadas */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Efectos de Transición */
+* {
+    transition: all 0.3s ease;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #005bea, #00c6fb);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #ff9900;
+    color: #333;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hero .btn:hover {
+    background-color: #e68a00;
+    transform: translateY(-3px);
+}
+
+/* Sección About */
+.about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+    margin: 40px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Sección Services */
+.services-preview {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.services-preview h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.services-preview .btn {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #005bea;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.services-preview .btn:hover {
+    background-color: #0048b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fuentes Importadas */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Efectos de Transición */
+* {
+    transition: all 0.3s ease;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #005bea, #00c6fb);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Efecto Parallax */
+.parallax {
+    background-image: url('https://via.placeholder.com/1920x1080');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Efecto de Texto en Hover */
+h2, h3 {
+    position: relative;
+}
+
+h2::after, h3::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #ff9900;
+    transition: width 0.4s ease;
+}
+
+h2:hover::after, h3:hover::after {
+    width: 100%;
+    left: 0;
+    background: #ff9900;
+}
+
+/* Animaciones con Keyframes */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+.fade-in-delayed {
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+/* Botones Avanzados */
+.btn {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, #ff9900, #ff6600);
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: background-position 0.3s, transform 0.3s;
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.btn:hover {
+    background-position: left bottom;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Desvanecimiento de Imágenes */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: opacity 0.5s ease;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+/* Sombras Dinámicas */
+.section {
+    background-color: white;
+    padding: 60px 20px;
+    margin: 40px 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.section:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Deslizar en la Navegación */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Contenedores con Efecto de Flotación */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #ff9900;
+    color: #333;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hero .btn:hover {
+    background-color: #e68a00;
+    transform: translateY(-3px);
+}
+
+/* Sección About */
+.about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+    margin: 40px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Sección Services */
+.services-preview {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.services-preview h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.services-preview .btn {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #005bea;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.services-preview .btn:hover {
+    background-color: #0048b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+/* Animación para las Tarjetas de Servicios */
+.service-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-out;
+}
+
+.service-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
